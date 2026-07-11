@@ -69,3 +69,63 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.form-container h1 {
+  margin-bottom: 0.5rem;
+}
+
+.form-container p {
+  margin-bottom: 1.5rem;
+}
+
+form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  background: #007bff;
+  color: #fff;
+  padding: 0.8rem;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
